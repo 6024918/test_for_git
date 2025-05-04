@@ -16,3 +16,13 @@ while ACTIVATE:
     ACTIVATE = False
 print("Finished greeting Hiro!")
     
+
+# define a fuction for kissing
+def kiss(name, time):
+  if time >1:
+    s = "times"
+  else:
+    s = "time"
+  print(f"{name.title()}, I want to kiss you {time} {s}!")
+kiss("hunter", 1)
+kiss("taiga", 4)
